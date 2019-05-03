@@ -1,0 +1,93 @@
+warning: LF will be replaced by CRLF in src/components/HelloWorld.vue.
+The file will have its original line endings in your working directory
+[1mdiff --git a/src/components/HelloWorld.vue b/src/components/HelloWorld.vue[m
+[1mindex 879051a..2c51905 100644[m
+[1m--- a/src/components/HelloWorld.vue[m
+[1m+++ b/src/components/HelloWorld.vue[m
+[36m@@ -2,30 +2,70 @@[m
+   <div class="hello">[m
+     <h1>{{ msg }}</h1>[m
+     <p>[m
+[31m-      For a guide and recipes on how to configure / customize this project,<br>[m
+[31m-      check out the[m
+[31m-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.[m
+[32m+[m[32m      For a guide and recipes on how to configure / customize this project,[m
+[32m+[m[32m      <br>check out the[m
+[32m+[m[32m      <a[m
+[32m+[m[32m        href="https://cli.vuejs.org"[m
+[32m+[m[32m        target="_blank"[m
+[32m+[m[32m        rel="noopener"[m
+[32m+[m[32m      >vue-cli documentation</a>.[m
+     </p>[m
+[31m-    <h3>Installed CLI Plugins</h3>[m
+[32m+[m[32m    <h3>Installed CLI Plugins66666</h3>[m
+     <ul>[m
+[31m-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>[m
+[31m-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>[m
+[32m+[m[32m      <li>[m
+[32m+[m[32m        <a[m
+[32m+[m[32m          href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel"[m
+[32m+[m[32m          target="_blank"[m
+[32m+[m[32m          rel="noopener"[m
+[32m+[m[32m        >babel</a>[m
+[32m+[m[32m      </li>[m
+[32m+[m[32m      <li>[m
+[32m+[m[32m        <a[m
+[32m+[m[32m          href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint"[m
+[32m+[m[32m          target="_blank"[m
+[32m+[m[32m          rel="noopener"[m
+[32m+[m[32m        >eslint</a>[m
+[32m+[m[32m      </li>[m
+     </ul>[m
+     <h3>Essential Links</h3>[m
+     <ul>[m
+[31m-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>[m
+[31m-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>[m
+[31m-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>[m
+[31m-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>[m
+[31m-      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>[m
+[32m+[m[32m      <li>[m
+[32m+[m[32m        <a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a>[m
+[32m+[m[32m      </li>[m
+[32m+[m[32m      <li>[m
+[32m+[m[32m        <a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a>[m
+[32m+[m[32m      </li>[m
+[32m+[m[32m      <li>[m
+[32m+[m[32m        <a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a>[m
+[32m+[m[32m      </li>[m
+[32m+[m[32m      <li>[m
+[32m+[m[32m        <a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a>[m
+[32m+[m[32m      </li>[m
+[32m+[m[32m      <li>[m
+[32m+[m[32m        <a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a>[m
+[32m+[m[32m      </li>[m
+     </ul>[m
+     <h3>Ecosystem</h3>[m
+     <ul>[m
+[31m-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>[m
+[31m-      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>[m
+[31m-      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>[m
+[31m-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>[m
+[31m-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>[m
+[32m+[m[32m      <li>[m
+[32m+[m[32m        <a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a>[m
+[32m+[m[32m      </li>[m
+[32m+[m[32m      <li>[m
+[32m+[m[32m        <a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a>[m
+[32m+[m[32m      </li>[m
+[32m+[m[32m      <li>[m
+[32m+[m[32m        <a[m
+[32m+[m[32m          href="https://github.com/vuejs/vue-devtools#vue-devtools"[m
+[32m+[m[32m          target="_blank"[m
+[32m+[m[32m          rel="noopener"[m
+[32m+[m[32m        >vue-devtools</a>[m
+[32m+[m[32m      </li>[m
+[32m+[m[32m      <li>[m
+[32m+[m[32m        <a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a>[m
+[32m+[m[32m      </li>[m
+[32m+[m[32m      <li>[m
+[32m+[m[32m        <a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a>[m
+[32m+[m[32m      </li>[m
+     </ul>[m
+   </div>[m
+ </template>[m
